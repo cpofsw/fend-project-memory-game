@@ -13,6 +13,13 @@ To get started, open `js/app.js` and start building out the app's functionality
 
 For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
 
+## How to Play
+
+* Open the Game.
+* Clicking on the cards will turn them over.
+* Find the matching cards.
+* Try to match all the cards with the minimum tries possible for a higher score.
+
 ## Contributing
 
 This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
