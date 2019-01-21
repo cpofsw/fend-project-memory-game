@@ -1,7 +1,10 @@
-/*
- * Create a list that holds all of your cards
- */
+function domReady() {
+  "use strict";
 
+/*
+ * List holding all my cards
+ */
+let cards = $('.card');
 
 /*
  * Display the cards on the page
