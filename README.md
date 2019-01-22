@@ -5,6 +5,7 @@
 * [About the Project](#About-the-Project)
 * [How to Play](#How-to-Play)
 * [Additional Libraries](#Additional-Libraries)
+* [Research Sources](#Research-Sources)
 * [Contributing](#contributing)
 
 ## About the Project
@@ -24,6 +25,18 @@ test. I've learned a lot!
 * [jQuery](https://jquery.com)
 * [Animate.css](https://github.com/daneden/animate.css)
 * [Font Awesome](https://fontawesome.com/)
+
+## Research Sources
+
+I would not be able to complete my project without these references. Here is the
+list :
+
+* [magdi mohammed](https://github.com/magdi-mohammed)
+* [Laura Enria](https://github.com/lauraenria)
+* [CodePen](https://codepen.io)
+* [Avi Aryan](https://github.com/aviaryan)
+* [MDN](https://developer.mozilla.org/pt-BR/)
+* [StackOverflow](https://stackoverflow.com/)
 
 ## Contributing
 
