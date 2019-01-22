@@ -161,3 +161,145 @@ h1 {
 .score-panel .restart-icon__holder i {
   margin-top: 4px;
 }
+
+/* Win Game  */
+
+#win-message-section {
+  opacity: 0;
+  visibility: hidden;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #fff;
+  -webkit-transition: opacity 0.2s ease-in;
+  -o-transition: opacity 0.2s ease-in;
+  transition: opacity 0.2s ease-in;
+  z-index: 9;
+}
+
+
+#win-message-section .righ-mark {
+  width: 70px;
+}
+
+.circ{
+    opacity: 0;
+    stroke-dasharray: 130;
+    stroke-dashoffset: 130;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+
+    fill: #ffffff;
+    stroke: rgba(0, 0, 0, 0.1);
+    stroke-width: 2;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+.tick{
+    stroke-dasharray: 50;
+    stroke-dashoffset: 50;
+    -webkit-transition: stroke-dashoffset 1s 0.5s ease-out;
+    -o-transition: stroke-dashoffset 1s 0.5s ease-out;
+    transition: stroke-dashoffset 1s 0.5s ease-out;
+
+    fill:none;
+    stroke: #8bd599;
+    stroke-width:2;
+    stroke-linejoin:round;
+    stroke-miterlimit:10;
+}
+.drawn svg .path{
+    opacity: 1;
+    stroke-dashoffset: 0;
+}
+
+
+.game-win-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fade-out {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: opacity 0.2s ease-in;
+  -o-transition: opacity 0.2s ease-in;
+  transition: opacity 0.2s ease-in;
+  -webkit-transition-delay: 0.7s;
+       -o-transition-delay: 0.7s;
+          transition-delay: 0.7s;
+}
+
+.fade-in {
+  opacity: 1;
+  visibility: visible;
+}
+
+#win-message-section h2 {
+  text-align: center;
+}
+
+#win-message-section .txt-holder {
+  text-align: center;
+  color: #6c6c6c;
+  margin-bottom: 1em;
+}
+
+#win-message-section .txt-holder .txt {
+  margin: 0;
+}
+
+#win-message-section .play-again__botton {
+  background: #02ccba;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
+/* Win Game End */
+
+
+/* Missing Adjustments */
+
+.deck .card.wrong-answer {
+  background: #f25327;
+}
+
+.float-right {
+  float: right !important;
+}
+
+.float-left {
+  float: left !important;
+}
