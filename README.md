@@ -2,23 +2,28 @@
 
 ## Table of Contents
 
-* [Instructions](#instructions)
+* [About the Project](#About-the-Project)
+* [How to Play](#How-to-Play)
+* [Additional Libraries](#Additional-Libraries)
 * [Contributing](#contributing)
 
-## Instructions
+## About the Project
 
-The starter project has some HTML and CSS styling to display a static version of the Memory Game project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
-
-To get started, open `js/app.js` and start building out the app's functionality
-
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+This project was a challange to put my skills with HTML, CSS and JavaScript at
+test. I've learned a lot!
 
 ## How to Play
 
-* Open the Game.
+* Clone the [Game](https://github.com/cpofsw/fend-project-memory-game).
 * Clicking on the cards will turn them over.
 * Find the matching cards.
 * Try to match all the cards with the minimum tries possible for a higher score.
+
+## Additional Libraries
+
+* [jQuery](https://jquery.com)
+* [Animate.css](https://github.com/daneden/animate.css)
+* [Font Awesome](https://fontawesome.com/)
 
 ## Contributing
 
